@@ -1,0 +1,24 @@
+---
+title: "Modelling Home Range and Intraspecific Spatial Interaction in Wild Animal Populations"
+author: "Fekadu L. Bayisa"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  extra_dependencies: H
+  geometry: left = 3.5cm, right = 3.5cm, top = 4cm, bottom = 2cm
+---
+
+
+
+## LICENSE
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of the codes and associated documentation files, to deal with the codes without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense the copies of the codes, and to permit persons to whom the codes are furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the codes.
+
+THE CODES ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE CODES OR THE USE OR OTHER DEALINGS IN THE CODES.
+
+
+
+
+

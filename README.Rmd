@@ -1,0 +1,72 @@
+---
+title: "Modelling Home Range and Intraspecific Spatial Interaction in Wild Animal Populations"
+author: "Fekadu L. Bayisa"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  extra_dependencies: H
+  geometry: left = 3.5cm, right = 3.5cm, top = 4cm, bottom = 2cm
+  word_document: default
+---
+
+
+## Introduction
+
+These R codes are used to implement the proposed home range and intra-specific spatial interaction modelling in wild animal populations. The codes produce data analysis results, such as the estimated home ranges of black bears and the nature of spatial interaction between pairs of black bears.
+
+We would like you to know that this repository will be updated periodically.
+
+## Running the code:
+
+
+To reproduce the results in the article, run the following functions located in the "Rcodes" folder:
+
+1. Exploratory Data Analysis: Run "studyAreaMcpKdeDataFun.R".
+
+2. Home Range Estimation:
+
+- Minimum Convex Polygon Estimation: Run "mcpFun.R" and plot using "mcphomerangeplot.R".
+
+- Kernel Density Estimation: Run "kdeFun.R" and plot using "kdehomerangeplot.R".
+
+- Autocorrelated Kernel Density Estimation: Run "akdeFun.R" and plot using "akdehomerangeplot.R".
+
+3. Intra-specific spatial interaction modelling:
+-Exploratory Data Analysis: Run "Check50OverLaptoSelectBears.R" to explore and identify whether the core home ranges of pairs of black bears overlap or not.
+
+-Estimate the conditional spatial intensities of the marked spatial point patterns of the black bear relocations using the function "spatial_intensity_estimation.R"
+
+-The R-functions "SimulatePWGlobalEnvelopeLFun.R" and "SimulatePWGlobalEnvelopeJFun.R" compute inhomogeneous cross-type L- and J-functions for real data using conditional spatial intensity estimates obtained in 3.2. They also perform Monte Carlo simulations of 2500 marked point patterns to test the null hypothesis of no spatial interaction between pairs of black bears. Besides, these functions compute L- and J-functions for the simulated patterns. We generate pointwise envelope test plots and conduct global statistical tests using the R-function "StatisticalTestEnvelope.R".
+
+
+## Help:
+
+If the codes fail and you are unsure why, feel free to contact the authors for assistance.
+
+## Citation request:
+
+@article{HomeRange20224,
+
+      title={Modelling Home Range and Intraspecific Spatial Interaction in Wild Animal Populations},
+      
+      author={Bayisa, Fekadu L and Seals, Christopher L. and Leeper, 
+      
+      Hannah J. and Steury, Todd D. and Ceyhan, Elvan},
+      
+      journal={},
+      
+      year={2024}
+      }
+
+
+## Contributions:
+
+Your contributions are welcome! For new features or if you are unsure about a bug fix, please provide your comments. Your contribution will be highly appreciated. For any questions, feel free to open an issue or contact fbayisa@uoguelph.ca (or harmee2020@gmail.com). Thank you!
+
+
+## Code of Conduct:
+
+
+Please note that the codes are released with a [Contributor Code of Conduct](https://usethis.r-lib.org/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
+
+
